@@ -289,7 +289,7 @@ body {
 }
 
 .footer {
-  background-color: #F3EEE8t;
+  background-color: #F3EEE8;
 }
 
 .footer__container {
@@ -339,8 +339,8 @@ body {
 .footer__container__flex__items > a:first-child {
   font-size: 30px;
   font-weight: 600;
-  font-weight-margin-bottom: 22px;
-  font-weight-color: #534B42;
+  margin-bottom: 22px;
+  color: #534B42;
 }
 
 .footer__container__flex__items > p {
@@ -352,4 +352,33 @@ body {
   text-align: left;
   font-size: 17px;
   color: #A06056;
+}
+
+.footer__container__bottom {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.footer__container__bottom__social {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.footer__container__bottom__social > a {
+  margin-right: 24px;
+}
+
+.footer__container__bottom__copyright {
+  margin-top: 20px;
+}
+
+.footer__container__bottom__copyright > a {
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.footer__container__bottom__copyright > a:first-child {
+  display: inline-block;
+  width: 700px;
+  margin-right: 0;
 }
