@@ -264,3 +264,26 @@ body {
 .white-block__container__slider__item > img {
   margin-right: 30px;
 }
+
+.white-block__bottom__container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.white-block__bottom__container__flex {
+  display: flex;
+  align-items: flex-end;
+  width: 749px;
+}
+
+.white-block__bottom__container__flex > h2 {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 800;
+  width: 360px;
+  margin: right 30px;
+}
+
+.white-block__bottom__container__flex > p {
+  width: 359px;
+}
