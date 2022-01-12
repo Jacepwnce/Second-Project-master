@@ -298,6 +298,7 @@ body {
   display: flex;
   align-items: flex-start;
   vertical-align: middle;
+  margin-top: 70px;
 }
 
 .footer__container__logo {
@@ -320,6 +321,11 @@ body {
 .footer__container__flex__items {
   display: flex;
   flex-direction: column;
+  margin-right: 48px;
+}
+
+.footer__container__flex__items:last-child {
+  margin-right: 64px;
 }
 
 .footer__container__flex__items > a {
@@ -334,4 +340,15 @@ body {
   font-weight: 600;
   font-weight-margin-bottom: 22px;
   font-weight-color: #534B42;
+}
+
+.footer__container__flex__items > p {
+  width: 235px;
+}
+
+.footer__container__flex__items > button {
+  border: none;
+  text-align: left;
+  font-size: 17px;
+  color: #A06056;
 }
