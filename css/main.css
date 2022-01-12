@@ -287,3 +287,51 @@ body {
 .white-block__bottom__container__flex > p {
   width: 359px;
 }
+
+.footer {
+  background-color: #F3EEE8t;
+}
+
+.footer__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  vertical-align: middle;
+}
+
+.footer__container__logo {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-right: 64px;
+}
+
+.footer__container__logo > a {
+  text-decoration: none;
+  color: #534B42;
+}
+
+.footer__container__flex {
+  display: flex;
+  vertical-align: middle;
+}
+
+.footer__container__flex__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container__flex__items > a {
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #706458;
+}
+
+.footer__container__flex__items > a:first-child {
+  font-size: 30px;
+  font-weight: 600;
+  font-weight-margin-bottom: 22px;
+  font-weight-color: #534B42;
+}
