@@ -3,9 +3,9 @@ $(document).ready(function(){
        arrows: true,
        dots: false,
        adaptiveHeight: true,
-       slidesToShow: 2, 
-       slidesToScroll: 1,
-       speed: 2000,
+       slidesToShow: 3, 
+       slidesToScroll: 3,
+       speed: 1000,
        Infinite: true,
        autoPlay: true,
    });
