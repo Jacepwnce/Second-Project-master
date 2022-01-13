@@ -322,7 +322,7 @@ body {
 .footer__container__flex__items {
   display: flex;
   flex-direction: column;
-  margin-right: 48px;
+  margin-right: 66px;
 }
 
 .footer__container__flex__items:last-child {
@@ -385,12 +385,13 @@ body {
 .footer__container__bottom__copyright > a {
   margin-right: 30px;
   text-decoration: none;
+  color: #706458B2;
   font-family: "Varta";
   font-weight: 400;
 }
 
 .footer__container__bottom__copyright > a:first-child {
   display: inline-block;
-  width: 700px;
+  width: 790px;
   margin-right: 0;
 }
