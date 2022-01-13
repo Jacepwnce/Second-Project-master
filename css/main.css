@@ -16,8 +16,10 @@ body {
 .header__container__logo {
   font-weight: 700;
   font-size: 34px;
+  font-family: "Merriweather";
   margin-right: 30px;
   letter-spacing: 2px;
+  box-sizing: border-box;
 }
 
 .header__container__logo > a {
@@ -28,7 +30,8 @@ body {
 
 .header__container__menu {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Varta";
   display: flex;
   align-items: center;
 }
