@@ -304,6 +304,7 @@ body {
 .footer__container__logo {
   font-size: 34px;
   font-weight: 700;
+  font-family: "Merriweather";
   letter-spacing: 2px;
   margin-right: 64px;
 }
@@ -332,25 +333,34 @@ body {
 .footer__container__flex__items > a {
   text-decoration: none;
   margin-bottom: 12px;
+  box-sizing: border-box;
   font-size: 18px;
+  font-family: "Varta";
+  font-weight: 400;
   color: #706458;
 }
 
 .footer__container__flex__items > a:first-child {
   font-size: 30px;
   font-weight: 600;
+  font-family: "Varta";
   margin-bottom: 22px;
   color: #534B42;
 }
 
 .footer__container__flex__items > p {
   width: 235px;
+  font-weight: 400;
+  font-family: "Varta";
+  font-size: 16px;
 }
 
 .footer__container__flex__items > button {
   border: none;
   text-align: left;
   font-size: 17px;
+  font-family: "Karla";
+  font-weight: 700;
   color: #A06056;
 }
 
@@ -375,6 +385,8 @@ body {
 .footer__container__bottom__copyright > a {
   margin-right: 30px;
   text-decoration: none;
+  font-family: "Varta";
+  font-weight: 400;
 }
 
 .footer__container__bottom__copyright > a:first-child {

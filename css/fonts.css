@@ -1,0 +1,37 @@
+@font-face{
+    font-family: "Varta";
+    font-weight: 400;
+    src: url("/fonts/Varta-Regular.woff2") format("woff2"),
+    url("/fonts/Varta-Regular.woff") format("woff");
+}
+
+@font-face{
+    font-family: "Varta";
+    font-weight: 600;
+    src: url("/fonts/Varta-SemiBold.woff2") format("woff2"),
+    url("/fonts/Varta-SemiBold.woff") format("woff");
+
+}
+/* font Varta  */
+
+@font-face{
+    font-family: "Merriweather";
+    font-weight: 300;
+    src: url("/fonts/Merriweather-Light.woff2") format("woff2"),
+    url("/fonts/Merriweather-Light.woff") format("woff");
+}
+
+@font-face{
+    font-family: "Merriweather";
+    font-weight: 700;
+    src: url("/fonts/Merriweather-Bold.woff2") format("woff2"),
+    url("/fonts/Merriweather-Bold.woff") format("woff");
+}
+/* font Merriweather */
+
+@font-face{
+    font-family: "Karla";
+    font-weight: 700;
+    src: url("/fonts/Karla-Bold.woff2") format("woff2"),
+    url("/fonts/Karla-Bold.woff") format("woff");
+}
