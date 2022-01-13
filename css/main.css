@@ -140,6 +140,9 @@ body {
   width: 165px;
   color: #706458E5;
   margin-right: 30px;
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .second-block__container__slider > button {
