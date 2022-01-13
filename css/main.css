@@ -101,6 +101,8 @@ body {
 
 .second-block__container__title > h1 {
   font-size: 55px;
+  font-family: "Merriweather";
+  font-weight: 300;
   color: #706458;
 }
 
@@ -113,6 +115,9 @@ body {
   width: 165px;
   margin-right: 24px;
   color: #706458E5;
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .second-block__container__flex__img {
@@ -122,6 +127,9 @@ body {
 .second-block__container__flex__img__text {
   width: 165px;
   margin-right: 32px;
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .second-block__container__slider {
@@ -132,16 +140,17 @@ body {
   width: 165px;
   color: #706458E5;
   margin-right: 30px;
-  font-size: 18px;
 }
 
 .second-block__container__slider > button {
   border: 0;
-  font-size: 20px;
   color: #A06056;
   vertical-align: middle;
   cursor: pointer;
   background-color: #F3EEE8;
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .second-block__container__slider > button::after {
