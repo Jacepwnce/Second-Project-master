@@ -177,12 +177,16 @@ body {
 }
 
 .third-block__container__flex__left > h2 {
+  font-family: "Merriweather";
+  font-weight: 300;
   font-size: 55px;
   width: 458px;
   color: #706458;
 }
 
 .third-block__container__flex__left > a {
+  font-family: "Karla";
+  flex-wrap: 700;
   font-size: 17px;
   color: #A06056;
   margin-top: 30px;
@@ -203,15 +207,19 @@ body {
 .third-block__container__flex__desscription__flex-items__card {
   width: 258px;
   margin-right: 29px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .third-block__container__flex__desscription__flex-items__card > h3 {
+  font-family: "Varta";
+  font-weight: 600;
   font-size: 25px;
   color: #A06056;
 }
 
 .third-block__container__flex__desscription__flex-items__card > p {
+  font-family: "Varta";
+  font-weight: 400;
   font-size: 18px;
   color: #706458E5;
 }
