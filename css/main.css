@@ -235,6 +235,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 70px;
 }
 
 .white-block__container__top {
@@ -242,20 +243,28 @@ body {
 }
 
 .white-block__container__top > h2 {
+  font-family: "Merriweather";
+  font-weight: 300;
   font-size: 35px;
   color: #121212;
 }
 
 .white-block__container__top > p {
+  font-family: "Varta";
+  font-weight: 400;
   font-size: 18px;
   color: #706458E5;
-  display: inline-block;
+  display: block;
 }
 
 .white-block__container__top > a {
+  font-family: "Karla";
+  font-weight: 700;
   font-size: 17px;
   color: #A06056;
   text-decoration: none;
+  margin-bottom: 64px;
+  display: block;
 }
 
 .white-block__container__top > a::after {
@@ -265,13 +274,18 @@ body {
 }
 
 .white-block__container__top__form {
-  margin-top: 102px;
+  margin-top: 0;
 }
 
 .white-block__container__top__form > input {
+  background-color: #F3EEE84D;
   width: 296px;
   margin-right: 16px;
   vertical-align: middle;
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 18px;
   padding-top: 15px;
   padding-right: 15px;
   padding-bottom: 10px;
@@ -279,10 +293,14 @@ body {
 }
 
 .white-block__container__top__form > button {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 17px;
   padding: 8px 30px;
   vertical-align: middle;
   background-color: #534B42;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .white-block__container__slider {
@@ -303,18 +321,23 @@ body {
   display: flex;
   align-items: flex-end;
   width: 749px;
+  margin-top: 40px;
 }
 
 .white-block__bottom__container__flex > h2 {
+  font-family: "Merriweather";
   font-size: 45px;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 300;
   width: 360px;
   margin: right 30px;
 }
 
 .white-block__bottom__container__flex > p {
   width: 359px;
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .footer {
